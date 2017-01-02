@@ -1,0 +1,9 @@
+---
+cachedir: /var/cache/r10k
+sources:
+  modules:
+    remote: https://github.com/arnaudmorin/mail-r10k-environments
+    basedir: /etc/puppet/environments
+  hiera:
+    remote: https://github.com/arnaudmorin/mail-r10k-hiera
+    basedir: /etc/puppet/hieradata
